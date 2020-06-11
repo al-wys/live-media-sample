@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Presenter } from './Presenter';
+import { Viewer } from './Viewer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,7 +28,7 @@ ReactDOM.render(
             <Presenter></Presenter>
           </Route>
           <Route path="/viewer">
-
+            <Viewer />
           </Route>
           <Route path="/">
             <App></App>
